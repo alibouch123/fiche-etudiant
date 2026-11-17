@@ -1,0 +1,27 @@
+.student-form {
+  display: flex; flex-direction: column; gap: 8px;
+  width: 100%; max-width: 600px; margin: 20px auto; padding: 20px;
+  background-color: #f8f9fa; color: #333; border: 1px solid #ccc;
+  border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.student-form h2 { text-align: center; margin: 0 0 10px; color: #36657f; }
+.student-form label { font-weight: bold; font-size: 14px; }
+.student-form input[type="text"],
+.student-form input[type="email"],
+.student-form input[type="tel"],
+.student-form select {
+  width: 100%; padding: 9px; font-size: 16px;
+  border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box;
+}
+.student-form input:focus, .student-form select:focus { border-color: #6aaeea; outline: none; }
+.student-form .erreur { color: #d93025; font-size: 13px; }
+.student-form .apercu { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; align-self: center; }
+
+.form-buttons { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+.form-buttons button {
+  background: #6aaeea; color: white; border: none; border-radius: 6px;
+  padding: 10px 18px; font-size: 15px; cursor: pointer;
+}
+.form-buttons button:hover { background: #4f93d0; }
+.form-buttons button.secondary { background: #888; }
+.form-buttons button.secondary:hover { background: #666; }

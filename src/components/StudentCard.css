@@ -1,0 +1,17 @@
+.card {
+  width: 100%; max-width: 440px; background: white; border-radius: 12px;
+  padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.card img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; }
+.card h1 { color: #6aaeea; margin: 10px 0; font-size: 34px; font-weight: 500; }
+.card p { margin: 8px 0; color: #5d5668; }
+.card strong { color: #222; }
+
+.buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 14px; }
+.buttons button {
+  background: #6aaeea; color: white; border: none; border-radius: 6px;
+  padding: 8px 12px; font-size: 13px; cursor: pointer;
+}
+.buttons button:hover { background: #4f93d0; }
+.buttons button.danger { background: #e26a6a; }
+.buttons button.danger:hover { background: #c94f4f; }
